@@ -13,6 +13,7 @@
 		922F529A1A89A9E700AE6489 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922F52991A89A9E700AE6489 /* Images.xcassets */; };
 		922F529D1A89A9E700AE6489 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 922F529B1A89A9E700AE6489 /* LaunchScreen.xib */; };
 		922F52A91A89A9E700AE6489 /* HomeWork_FaceBook_RedoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F52A81A89A9E700AE6489 /* HomeWork_FaceBook_RedoTests.swift */; };
+		922F52B31A89AD7C00AE6489 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F52B21A89AD7C00AE6489 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		922F52A21A89A9E700AE6489 /* HomeWork_FaceBook_RedoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeWork_FaceBook_RedoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		922F52A71A89A9E700AE6489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		922F52A81A89A9E700AE6489 /* HomeWork_FaceBook_RedoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork_FaceBook_RedoTests.swift; sourceTree = "<group>"; };
+		922F52B21A89AD7C00AE6489 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				922F52921A89A9E700AE6489 /* AppDelegate.swift */,
 				922F52941A89A9E700AE6489 /* ViewController.swift */,
 				922F52961A89A9E700AE6489 /* Main.storyboard */,
+				922F52B21A89AD7C00AE6489 /* LoginViewController.swift */,
 				922F52991A89A9E700AE6489 /* Images.xcassets */,
 				922F529B1A89A9E700AE6489 /* LaunchScreen.xib */,
 				922F52901A89A9E700AE6489 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922F52B31A89AD7C00AE6489 /* LoginViewController.swift in Sources */,
 				922F52951A89A9E700AE6489 /* ViewController.swift in Sources */,
 				922F52931A89A9E700AE6489 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				922F52AE1A89A9E700AE6489 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		922F52AF1A89A9E700AE6489 /* Build configuration list for PBXNativeTarget "HomeWork_FaceBook_RedoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				922F52B11A89A9E700AE6489 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
